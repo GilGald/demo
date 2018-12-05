@@ -30,7 +30,7 @@ applications:
   # One instance of java-spring-website
   # (see: applications/java-spring-website/java-spring-website.yaml)
   - java-spring-website:
-      instances: 1
+      instances: 3
       input_values:
         - DB_USER: $DB_USER
         - DB_PASS: $DB_PASS
